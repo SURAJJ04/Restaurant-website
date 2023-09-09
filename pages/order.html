@@ -1,0 +1,340 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen | Cafe & Resto</title>
+    <link rel="stylesheet" href="/assets/index.css">
+</head>
+
+<body>
+
+    <nav class="fixed w-full z-20 top-0 left-0py-4 text-white nav-font bg-gray-950">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center">
+                <img class="w-20 rounded-full" src="/img/logo/logo.jpg" alt="">
+            </a>
+            <div class="flex md:order-2">
+                <a href="" class="w-14 py-auto"><img src="/img/logo/profile.png" alt=""></a>
+                <button data-collapse-toggle="navbar-sticky" type="button" onclick="openMenu()"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  bg-gray-950 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
+                    <li>
+                        <a href="../index.html"
+                            class="block py-2 pl-3 pr-4 mx-5 text-white rounded hover:underline hover:text-red-500 md:hover:bg-transparent md:p-0 ">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"
+                            class="block py-2 pl-3 pr-4 mx-5 text-white rounded hover:underline hover:text-red-500 md:hover:bg-transparent md:p-0 ">About</a>
+                    </li>
+                    <li>
+                        <a href="menu.html"
+                            class="block py-2 pl-3 pr-4 mx-5 text-white rounded hover:underline hover:text-red-500 md:hover:bg-transparent md:p-0 ">Menu</a>
+                    </li>
+                    <li>
+                        <a href="order.html"
+                            class="block py-2 pl-3 pr-4 mx-5 text-white rounded hover:underline hover:text-red-500 md:hover:bg-transparent md:p-0 ">Order
+                            Online</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            class="block py-2 pl-3 pr-4 mx-5 text-white rounded hover:underline hover:text-red-500 md:hover:bg-transparent md:p-0 ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-32">
+        <h2 class="text-center text-4xl my-2">Our Menu</h2>
+        <div class="grid grid-cols-3 gap-4 py-10 mx-auto bg-white text-black max-sm:block">
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://static.toiimg.com/thumb/61050397.cms?imgsize=246859&width=800&height=800" alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Samosas</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/vegetable-pakora-recipe.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Pakoras</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.indianveggiedelight.com/wp-content/uploads/2023/07/aloo-tikki-featured.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Aloo Tikki</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 py-10 mx-auto bg-white text-black max-sm:block">
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/09/papdi-chaat-2.jpg" alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Chaat</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.simplyrecipes.com/thmb/gsbFOv1Kup_Pn-4GvBNDfflC9Do=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2015__09__mulligatawny-soup-horiz-a-1500-bb866c4e3ef145ad8d8f30298b53fe5a.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Mulligatawny Soup</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://cdn.loveandlemons.com/wp-content/uploads/2023/01/tomato-soup-recipe.jpg" alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Tomato Soup</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 py-10 mx-auto bg-white text-black max-sm:block">
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Paneer Masala</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$4</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/chana-masala-recipe.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Chana Masala</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://5.imimg.com/data5/SELLER/Default/2023/7/330638691/SU/KW/SS/95161976/fresh-dal-makhani-frozen-rte-500x500.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Dal Makhani</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 py-10 mx-auto bg-white text-black max-sm:block">
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/09/baingan-bharta-recipe.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Baingan Bharta</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.cookwithmanali.com/wp-content/uploads/2019/08/Palak-Paneer-500x500.jpg" alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Palak Paneer</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/malai-kofta-recipe.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Malai Kofta</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-3 gap-4 py-10 mx-auto bg-white text-black max-sm:block">
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://kitchenofdebjani.com/wp-content/uploads/2023/04/easy-indian-chicken-curry-Recipe-for-beginners-Debjanir-rannaghar.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Chicken Curry</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$3</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.foodandwine.com/thmb/9WzLbycV-hnooIingsH3bu48Ieo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/200810-r-xl-lamb-rogan-josh-3a079f6beb2a4fc68e1aa1d4af36eba2.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Lamb Rogan Josh</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/04/butter-chicken-recipe.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Butter Chicken</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$3</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-3 gap-4 py-10 mx-auto bg-white text-black max-sm:block">
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.licious.in/blog/wp-content/uploads/2022/03/shutterstock_1891229335-min.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Fish Curry</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$3</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://norecipes.com/wp-content/uploads/2017/05/chicken-biryani-006.jpg" alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Chicken Biryani</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5" src="https://images.wsj.net/im-358151?width=1280&size=1" alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Tandoori Chops</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$3</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-3 gap-4 py-10 mx-auto bg-white text-black max-sm:block">
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Gulab_jamun_%28Gibraltar%2C_November_2020%29.jpg/1200px-Gulab_jamun_%28Gibraltar%2C_November_2020%29.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Gulab Jamun</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$3</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class=" mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://www.indianhealthyrecipes.com/wp-content/uploads/2014/09/rasgulla-recipe-1-500x500.jpg"
+                        alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Rasgulla</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$2</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+            <div class="mx-8">
+                <div class="">
+                    <img class="w-14 rounded-full mx-5"
+                        src="https://static.toiimg.com/thumb/53099699.cms?width=1200&height=900" alt="">
+                </div>
+                <div class="flex">
+                    <p class="mx-4">Jalebi</p>
+                    <p class="mx-4 bg-gray-900 text-white px-2 rounded-md">$3</p>
+                    <a href="#" class="bg-red-600 px-3 py-1 text-white rounded-lg text-sm">Add Cart</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+</body>
+
+<script src="/script/index.js"></script>
+
+</html>
